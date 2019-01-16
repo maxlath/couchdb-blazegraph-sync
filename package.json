@@ -1,0 +1,18 @@
+{
+  "name": "couchdb-blazegraph-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluereq": "^2.1.7",
+    "coffee-script": "^1.12.7",
+    "config": "^3.0.1",
+    "follow": "^1.1.0"
+  }
+}
