@@ -9,7 +9,8 @@ module.exports = {
   },
   serializer: {
     workingDir: '/path/to/ttl_serializer/working_dir',
-    path: '/path/to/ttl_serializer.js'
+    path: '/path/to/ttl_serializer.js',
+    prefixes: '/path/to/prefixes.ttl'
   },
   buildUri: doc => `http://inventaire.io/entity/${doc._id}`
 }
