@@ -1,3 +1,5 @@
 node_modules
 package-lock.json
 config/local.js
+last_seq
+*.ttl
