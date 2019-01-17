@@ -18,6 +18,7 @@
     "add-to-systemd": "^2.1.2",
     "bluebird": "^3.5.3",
     "bluereq": "^2.1.8",
+    "chalk": "^2.4.2",
     "coffee-script": "^1.12.7",
     "follow": "^1.1.0",
     "lodash.get": "^4.4.2",
