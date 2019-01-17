@@ -29,3 +29,6 @@ curl http://my-blazegraph:8080/bigdata/namespace/kb/dataloader -H 'Content-Type:
 # Set the current last seq
 curl "http://username:password@localhost:5984/my_db" | jq '.update_seq' > ./data/my_db.last_seq
 ```
+
+## License
+[AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)

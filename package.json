@@ -1,14 +1,18 @@
 {
   "name": "couchdb-blazegraph-sync",
   "version": "1.0.0",
-  "description": "",
+  "description": "Keep a CouchDB database and a BlazeGraph namespace in sync",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "CouchDB",
+    "BlazeGraph",
+    "sync"
+  ],
+  "author": "maxlath",
+  "license": "AGPL-3.0",
   "dependencies": {
     "bluebird": "^3.5.3",
     "bluereq": "^2.1.8",
@@ -17,5 +21,17 @@
     "lodash.get": "^4.4.2",
     "lodash.map": "^4.6.0",
     "lodash.throttle": "^4.1.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxlath/couchdb-blazegraph-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxlath/couchdb-blazegraph-sync/issues"
+  },
+  "homepage": "https://github.com/maxlath/couchdb-blazegraph-sync#readme"
 }
