@@ -13,8 +13,9 @@
     "bluebird": "^3.5.3",
     "bluereq": "^2.1.8",
     "coffee-script": "^1.12.7",
-    "config": "^3.0.1",
     "follow": "^1.1.0",
-    "lodash.debounce": "^4.0.8"
+    "lodash.debounce": "^4.0.8",
+    "lodash.get": "^4.4.2",
+    "lodash.map": "^4.6.0"
   }
 }
