@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.3",
     "bluereq": "^2.1.8",
     "coffee-script": "^1.12.7",
     "config": "^3.0.1",

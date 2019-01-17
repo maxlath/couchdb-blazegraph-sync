@@ -5,7 +5,10 @@ module.exports = {
   },
   blazegraph: {
     host: 'http://localhost:8080',
-    namespace: 'kb'
+    namespace: 'kb',
+    endpoint: function () {
+      return `${this.host}/bigdata/namespace/${this.namespace}/sparql`
+    }
   },
   serializer: {
     workingDir: '/path/to/ttl_serializer/working_dir',
