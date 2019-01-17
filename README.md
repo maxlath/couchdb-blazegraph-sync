@@ -30,5 +30,20 @@ curl http://my-blazegraph:8080/bigdata/namespace/kb/dataloader -H 'Content-Type:
 curl "http://username:password@localhost:5984/my_db" | jq '.update_seq' > ./data/my_db.last_seq
 ```
 
+## start
+```sh
+npm start
+```
+
+## add to systemd
+```sh
+# From the project root, assumes that you need sudo rights
+npm run add-to-systemd
+# Start the process
+sudo systemctl start couchdb-blazegraph-sync
+# Start following the logs
+journalctl -fan 100 -u couchdb-blazegraph-sync
+```
+
 ## License
 [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)

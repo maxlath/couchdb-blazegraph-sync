@@ -4,8 +4,9 @@
   "description": "Keep a CouchDB database and a BlazeGraph namespace in sync",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "add-to-systemd": "./scripts/add_to_systemd"
+    "add-to-systemd": "./scripts/add_to_systemd",
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "CouchDB",
