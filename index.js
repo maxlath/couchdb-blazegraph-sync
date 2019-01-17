@@ -11,6 +11,7 @@ follow({ db, filter: filterOutDesignDocs, include_docs: true }, (err, change) =>
   if (err) return console.error(red('follow error'), err)
 
   update(change)
+  .get('body')
   .then(console.log.bind(null, green('RES')))
   .catch(console.error.bind(null, red('ERR')))
 })
