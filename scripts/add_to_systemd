@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+sudo ./node_modules/.bin/add-to-systemd \
+  couchdb-blazegraph-sync \
+  --cwd $(pwd) \
+  --nice 19 \
+  --user $USER \
+  --env FORCE_COLOR=1 \
+  "$(which node) index.js"

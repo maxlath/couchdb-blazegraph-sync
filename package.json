@@ -4,7 +4,8 @@
   "description": "Keep a CouchDB database and a BlazeGraph namespace in sync",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-to-systemd": "./scripts/add_to_systemd"
   },
   "keywords": [
     "CouchDB",
@@ -14,6 +15,7 @@
   "author": "maxlath",
   "license": "AGPL-3.0",
   "dependencies": {
+    "add-to-systemd": "^2.1.2",
     "bluebird": "^3.5.3",
     "bluereq": "^2.1.8",
     "coffee-script": "^1.12.7",
