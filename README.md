@@ -5,6 +5,21 @@ Keep a CouchDB database and a BlazeGraph namespace in sync.
 
 **STATUS: WIP**
 
+## Summary
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [install](#install)
+- [add config](#add-config)
+- [set last seq](#set-last-seq)
+- [start](#start)
+- [add to systemd](#add-to-systemd)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## install
 ```sh
 git clone https://github.com/maxlath/couchdb-blazegraph-sync
