@@ -11,29 +11,29 @@ Keep a CouchDB database and a BlazeGraph namespace in sync.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [install](#install)
-- [add config](#add-config)
-- [set last seq](#set-last-seq)
-- [start](#start)
-- [add to systemd](#add-to-systemd)
+- [Install](#install)
+- [Add config](#add-config)
+- [Set last seq](#set-last-seq)
+- [Start](#start)
+- [Add to systemd](#add-to-systemd)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## install
+## Install
 ```sh
 git clone https://github.com/maxlath/couchdb-blazegraph-sync
 cd couchdb-blazegraph-sync
 npm install --production
 ```
 
-## add config
+## Add config
 ```sh
 cp ./configs/example.js ./configs/my_db.js
 ```
 Then customize `./configs/my_db` to your needs
 
-## set last seq
+## Set last seq
 The sync will restart from the last known seq, which is persisted in a file per database: `./data/my_db.last_seq`
 
 **This tool isn't designed to load a full database**, rather to keep up with the changes, so first make sure you to import a dump directly
@@ -45,12 +45,12 @@ curl http://my-blazegraph:8080/bigdata/namespace/kb/dataloader -H 'Content-Type:
 curl "http://username:password@localhost:5984/my_db" | jq '.update_seq' > ./data/my_db.last_seq
 ```
 
-## start
+## Start
 ```sh
 npm start
 ```
 
-## add to systemd
+## Add to systemd
 ```sh
 # From the project root, assumes that you need sudo rights
 npm run add-to-systemd
