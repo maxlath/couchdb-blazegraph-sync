@@ -1,7 +1,8 @@
 # couchdb-blazegraph-sync
 
 Keep a CouchDB database and a BlazeGraph namespace in sync.
-> /!\ DO NOT USE FOR LOADING A FULL DATABASE (load by directly sending a dump to BlazeGraph instead)
+
+:warning: **Do not use for loading a full database**, as that would be way less performant than just sending a dump to BlazeGraph
 
 ## Summary
 
@@ -41,6 +42,8 @@ The sync will restart from the last known seq, which is persisted in a file per 
 curl http://my-blazegraph:8080/bigdata/namespace/kb/dataloader -H 'Content-Type: application/x-turtle' -d@./my_db.ttl
 # Set the current last seq
 curl "http://username:password@localhost:5984/my_db" | jq '.update_seq' > ./data/my_db.last_seq
+# Or set an arbitrary point to start from
+printf '1079700' > ./data/my_db.last_seq
 ```
 
 ## Start
