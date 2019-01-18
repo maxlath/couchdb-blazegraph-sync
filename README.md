@@ -29,7 +29,7 @@ npm install --production
 
 ## add config
 ```sh
-cp ./configs/example ./configs/my_db
+cp ./configs/example.js ./configs/my_db.js
 ```
 Then customize `./configs/my_db` to your needs
 
