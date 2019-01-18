@@ -3,8 +3,6 @@
 Keep a CouchDB database and a BlazeGraph namespace in sync.
 > /!\ DO NOT USE FOR LOADING A FULL DATABASE (load by directly sending a dump to BlazeGraph instead)
 
-**STATUS: WIP**
-
 ## Summary
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
