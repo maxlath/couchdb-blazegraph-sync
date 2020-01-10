@@ -6,7 +6,8 @@
   "scripts": {
     "add-to-systemd": "./scripts/add_to_systemd",
     "start": "node ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-toc": "./scripts/update_toc"
   },
   "keywords": [
     "CouchDB",
