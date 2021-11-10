@@ -14,7 +14,7 @@ module.exports = {
     // optional
     workingDir: '/path/to/ttl_serializer/working_dir',
     // optional
-    prefixes: '/path/to/prefixes.ttl'
+    prefixes: '/path/to/prefixes.ttl',
     // URI required
     buildUri: doc => `http://example.org/entity/${doc._id}`
   }
