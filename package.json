@@ -31,10 +31,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxlath/couchdb-blazegraph-sync.git"
+    "url": "https://codeberg.org/maxlath/couchdb-blazegraph-sync"
   },
   "bugs": {
-    "url": "https://github.com/maxlath/couchdb-blazegraph-sync/issues"
+    "url": "https://codeberg.org/maxlath/couchdb-blazegraph-sync/issues"
   },
-  "homepage": "https://github.com/maxlath/couchdb-blazegraph-sync#readme"
+  "homepage": "https://codeberg.org/maxlath/couchdb-blazegraph-sync#readme"
 }
